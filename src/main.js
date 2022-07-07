@@ -17,10 +17,12 @@ const createWindow = () => {
     win.title = "Anime Game UA Patch Tool"
     win.resizable = false
     win.loadFile('./src/index.html')
+    /* Create a window and load index.html*/
 }
 
 app.whenReady().then(() => {
     console.log("running")
+    console.log("checking network connection")
     createWindow()
 })
 

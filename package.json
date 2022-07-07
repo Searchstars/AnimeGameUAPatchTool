@@ -2,7 +2,7 @@
   "name": "anime_game_ua_patch_tool",
   "version": "1.0.0",
   "description": "\"UserAssembly.dll\" patch tool for an animation game",
-  "main": "main.js",
+  "main": "./src/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "electron-forge start",
@@ -17,7 +17,9 @@
     "@electron-forge/maker-rpm": "^6.0.0-beta.64",
     "@electron-forge/maker-squirrel": "^6.0.0-beta.64",
     "@electron-forge/maker-zip": "^6.0.0-beta.64",
-    "electron": "^19.0.4"
+    "electron": "^19.0.4",
+    "electron-compile": "^6.4.4",
+    "electron-prebuilt-compile": "8.2.0"
   },
   "dependencies": {
     "@electron/remote": "^2.0.8",

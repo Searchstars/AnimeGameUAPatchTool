@@ -45,8 +45,8 @@ function test_(){
     fs.writeFileSync(file_path[0], data_buff)
     dialog.showMessageBox({
         type: "info",
-        title: "666",
-        message: "尊贵的SCP10388，您的UA文件我已经帮你Patch了，Only for you.",
+        title: "success",
+        message: "Operation completed successfully.",
         buttons: ["OK"]
     })
 }
