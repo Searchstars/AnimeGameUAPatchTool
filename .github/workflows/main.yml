@@ -27,7 +27,7 @@ jobs:
         run: npm install && npm install -g electron-forge
         
       - name: electron-forge make for linux
-        run: electron make
+        run: electron-forge make
 
       - name: Upload build artifacts
         uses: actions/upload-artifact@v3
