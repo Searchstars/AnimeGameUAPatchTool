@@ -44,7 +44,7 @@ jobs:
       - name: npm check
         run: npm install && npm install -g electron-forge
         
-      - name: electron-forge make for linux
+      - name: electron-forge make for windows
         run: electron-forge make
 
       - name: Upload build artifacts
